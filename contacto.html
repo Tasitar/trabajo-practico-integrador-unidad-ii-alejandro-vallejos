@@ -9,6 +9,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/contacto.css" />
     <title>contacto</title>
   </head>
   <body>
@@ -42,67 +43,68 @@
       </ul>
     </header>
     <main>
-      <section class=" d-flex">
-        <div class="w-75">
-      <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Tiene alguna duda?, consulte aqui</h4>
-        <form class="needs-validation" novalidate="">
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">Nombre</label>
-              <input
-                type="text"
-                class="form-control"
-                id="firstName"
-                placeholder=""
-                value=""
-                required=""
-              />
-            </div>
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Apellido</label>
-              <input
-                type="text"
-                class="form-control"
-                id="lastName"
-                placeholder=""
-                value=""
-                required=""
-              />
-            </div>
-            <div class="col-6">
-              <label for="email" class="form-label"
-                >Email
-                <span class="text-body-secondary"></span></label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="nombre@ejemplo.com"
-              />
-              <div class="invalid-feedback">
-                por favor, ingrese un Email valido.
+      <section class="d-flex">
+      <div class="w-50">
+        <div class="col-md-7 col-lg-8">
+          <h4 class="mb-3">Tiene alguna duda?, consulte aqui</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder=""
+                  value=""
+                  required=""
+                />
+              </div>
+              <div class="col-6">
+                <label for="email" class="form-label"
+                  >Email <span class="text-body-secondary"></span
+                ></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="nombre@ejemplo.com"
+                />
+                <div class="invalid-feedback">
+                  por favor, ingrese un Email valido.
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="address2" class="form-label"
+                  >Consulta <span class="text-body-secondary"></span
+                ></label>
+                <input type="text" class="form-control" id="address2" />
               </div>
             </div>
-            <div class="col-12">
-              <label for="address2" class="form-label"
-                >Consulta <span class="text-body-secondary"></span
-              ></label>
-              <input
-                type="text"
-                class="form-control"
-                id="address2"              />
-            </div>
-          </div>
-          <hr class="my-4" />
-          <button class="w-100 btn btn-primary btn-lg" type="submit">
-            Enviar consulta
-          </button>
-        </form>
+            <hr class="my-4" />
+            <button class="w-100 btn btn-primary btn-lg" type="submit">
+              Enviar consulta
+            </button>
+          </form>
+        </div>
       </div>
+
+      <figure class=" w-25 d-flex flex-column">
+        <img src="assets/css/img/imagen-insti-contacto.png" alt="" />
+        <a class="btn btn-success mt-3" href="https://www.google.com/maps/place/Instituto+Polit%C3%A9cnico+Formosa/@-26.0813686,-58.2790531,1235m/data=!3m1!1e3!4m6!3m5!1s0x945cb1005b21b355:0x36a052477a923c03!8m2!3d-26.0802653!4d-58.277225!16s%2Fg%2F11y2949x12!5m1!1e4?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D" role="button">Link</a>
+      </figure>
     </section>
-  </div>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
