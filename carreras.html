@@ -1,45 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <title>carreras</title>
-</head>
-<body>
-          <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+  </head>
+  <body>
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+    >
+      <a
+        href="/"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
       >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <span class="fs-4">IPF</span>
-        </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link active" aria-current="page"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="institucional.html" class="nav-link">institucion</a>
-          </li>
-          <li class="nav-item">
-            <a href="carreras.html" class="nav-link">carreras</a>
-          </li>
-          <li class="nav-item">
-            <a href="contacto.html" class="nav-link">contacto</a>
-          </li>
-        </ul>
-      </header>
-      <main>
+        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4">IPF</span>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active" aria-current="page"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="institucional.html" class="nav-link">institucion</a>
+        </li>
+        <li class="nav-item">
+          <a href="carreras.html" class="nav-link">carreras</a>
+        </li>
+        <li class="nav-item">
+          <a href="contacto.html" class="nav-link">contacto</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="container py-5">
+        <h1 class="text-center mb-4">Tecnicaturas Superiores - IPF</h1>
 
-      </main>
-        <div class="container">
+        <!-- Carreras -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <!-- Química Industrial -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">
+                  Tecnicatura Superior en Química Industrial
+                </h5>
+                <p class="card-text">
+                  Formación orientada a procesos químicos, control de calidad y
+                  gestión de laboratorios industriales. Prepara profesionales
+                  para trabajar en industrias químicas, farmacéuticas y
+                  alimenticias.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Mecatrónica -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-success">
+                  Tecnicatura Superior en Mecatrónica
+                </h5>
+                <p class="card-text">
+                  Integra mecánica, electrónica y sistemas de control. Capacita
+                  para diseñar, mantener y optimizar equipos automatizados en
+                  sectores productivos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Telecomunicaciones -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-warning">
+                  Tecnicatura Superior en Telecomunicaciones
+                </h5>
+                <p class="card-text">
+                  Especialización en redes, transmisión de datos y sistemas de
+                  comunicación. Forma técnicos capaces de instalar, administrar
+                  y mantener infraestructuras de telecomunicaciones.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Desarrollo de Software Multiplataforma -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-danger">
+                  Tecnicatura Superior en Desarrollo de Software Multiplataforma
+                </h5>
+                <p class="card-text">
+                  Enfocada en programación, diseño y desarrollo de aplicaciones
+                  para distintos entornos. Prepara profesionales para crear
+                  soluciones digitales innovadoras.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Requisitos -->
+      <div class="mt-5">
+        <h2 class="text-center">Requisitos de Inscripción</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            Original y copia del titulo secundario u original de la constancia
+            de titulo en tramite.
+          </li>
+          <li class="list-group-item">
+            Copia del reverso y verso del DNI (por duplicado).
+          </li>
+          <li class="list-group-item">Original de certificado de domicilio.</li>
+          <li class="list-group-item">Constancia de CUIL.</li>
+          <li class="list-group-item">Copia del acta de nacimiento.</li>
+          <li class="list-group-item">Carta Compromiso.</li>
+        </ul>
+      </div>
+
+    </main>
+    <div class="container">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
       >
@@ -75,6 +166,10 @@
         </ul>
       </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
